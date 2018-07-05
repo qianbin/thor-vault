@@ -1,0 +1,31 @@
+{
+  "name": "thor-vault",
+  "version": "0.1.0",
+  "description": "VeChain Thor Keystore Management Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianbin/thor-vault.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qianbin/thor-vault/issues"
+  },
+  "homepage": "https://github.com/qianbin/thor-vault#readme",
+  "devDependencies": {
+    "@types/bip39": "^2.4.0",
+    "@types/hdkey": "^0.7.0",
+    "@types/node": "^10.5.1",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "hdkey": "^1.0.0",
+    "keythereum": "^1.0.4"
+  }
+}
